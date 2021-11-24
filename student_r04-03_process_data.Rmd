@@ -103,7 +103,7 @@ df_32
   - https://www.datasciencemadesimple.com/remove-duplicate-rows-r-using-dplyr-distinct-function/
 ```{r}
 
-# 會保留第一個
+# 會保留最後一個
 df_32 %>% distinct(B, .keep_all = TRUE)
 
 ```
